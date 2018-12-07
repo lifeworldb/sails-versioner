@@ -1,0 +1,7 @@
+<% if (generateTemplate === 1) { %>
+  <%= actionsName %>: (req, res) => {
+    return res.json({
+      todo: '<%=actionsName%>() is not implemented yet!'
+    })
+  }
+  <% } %>

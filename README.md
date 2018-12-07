@@ -26,7 +26,6 @@ Then merge the following into your `.sailsrc` file:
 > Check out [Concepts > Extending Sails > Generators](https://sailsjs.com/docs/concepts/extending-sails/generators) for information on installing generator overrides / custom generators and information on building your own generators.
 
 
-
 ## Usage
 
 #### Generate Controller

@@ -1,0 +1,23 @@
+<%
+//  ╔╦╗╔═╗╔═╗╔═╗╦ ╦╦ ╔╦╗
+//   ║║║╣ ╠╣ ╠═╣║ ║║  ║
+//  ═╩╝╚═╝╚  ╩ ╩╚═╝╩═╝╩
+//  ┌─     ┬┌─┐┬  ┬┌─┐┌─┐┌─┐┬─┐┬┌─┐┌┬┐    ─┐
+//  │───   │├─┤└┐┌┘├─┤└─┐│  ├┬┘│├─┘ │   ───│
+//  └─    └┘┴ ┴ └┘ ┴ ┴└─┘└─┘┴└─┴┴   ┴     ─┘
+if (generateTemplate === 1) { %>/**
+ * <%= controllerName %>
+ *
+ * @description :: Server-side actions for handling incoming requests.
+ * @help        :: See https://sailsjs.com/docs/concepts/actions
+ */
+
+module.exports = {<% if(actionFns == 0) { %>
+  index: (req, res) => {
+    res.send('Hello')
+  },
+  <% } else if (actionFns !== 0) { %>
+  <%= actionFns %>
+  <% } %>
+};
+<% } else if (generateTemplate === 2 ) { console.log(4525)} %>

@@ -1,0 +1,13 @@
+<% if(generateTemplate !== 1) { %>
+API_VERSION = <%= apiVer %>
+PORT = <%= port %>
+MAIN_DB_ADAPTER = <%= mainDBA %>
+MAIN_DB_HOST = <%= mainDBH %>
+MAIN_DB_PORT = <%= mainDBP %>
+MAIN_DB_DB = <%= mainDBD %>
+TOKEN_KEY = <%= mainTK %>
+REDIS_PORT = <%= redisP %>
+REDIS_HOST = <%= redisH %>
+REDIS_DB = <%= redisD %>
+DOMAIN_APP = <%= domain %>
+DOMAIN_API = <%= domaAP %><% } %>

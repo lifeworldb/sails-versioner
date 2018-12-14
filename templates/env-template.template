@@ -4,6 +4,7 @@ PORT = <%= port %>
 MAIN_DB_ADAPTER = <%= mainDBA %>
 MAIN_DB_HOST = <%= mainDBH %>
 MAIN_DB_PORT = <%= mainDBP %>
+MAIN_DB_USER = <%= mainDBU %>
 MAIN_DB_DB = <%= mainDBD %>
 TOKEN_KEY = <%= mainTK %>
 REDIS_PORT = <%= redisP %>

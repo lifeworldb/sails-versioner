@@ -13,8 +13,10 @@ Then merge the following into your `.sailsrc` file:
 
 ```json
 {
-  "modules": {
-    "sv": "sails-versioner"
+  "generators": {
+    "modules": {
+      "sv": "sails-versioner"
+    }
   }
 }
 ```
@@ -72,6 +74,9 @@ The [Sails framework](https://sailsjs.com) is free and open-source under the [MI
 ![image_squidhome@2x.png](http://i.imgur.com/RIvu9.png)
 
 ## Log Version
+
+### v0.1.1
+- FIX .env Template
 
 ### v0.1.0
 - Version updater major and minor
